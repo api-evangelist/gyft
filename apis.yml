@@ -1,7 +1,27 @@
 aid: gyft
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gyft.png
 name: Gyft
-description: Gyft is a company surfaced as a portfolio company of 500-global, gv and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gyft is a digital gift card platform and marketplace (a Fiserv / First Data
+  company) for buying, sending, storing, and redeeming digital gift cards from
+  more than 250 retail brands. Consumers use the Gyft web app and mobile apps to
+  consolidate and manage gift cards, while businesses use the Gyft API and Gyft
+  SDK to add digital gift cards to their own apps, websites, employee rewards,
+  and incentive programs, and to place bulk corporate orders through Gyft
+  Business. Developer and API access is provisioned to enrolled partners via the
+  Gyft developer portal. Surfaced originally as a portfolio company of 500 Global
+  and GV, and enriched here from Gyft's public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/gyft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Gift Cards
+- Digital Gift Cards
+- Payments
+- Rewards
+- Incentives
+- Fintech
+- Ecommerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,28 @@ maintainers:
 common:
 - type: Website
   url: https://gyft.com
+- type: DeveloperPortal
+  url: https://business.gyft.com/developers
+- type: Documentation
+  url: https://business.gyft.com/developers/docs
+- type: SDKs
+  url: https://business.gyft.com/developers/docs/?sdk=1
+- type: Support
+  url: https://support.gyft.com/
+- type: SignUp
+  url: https://partner.gyft.com/#/enroll
+- type: TermsOfService
+  url: https://www.gyft.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.gyft.com/privacy-policy/
+- type: Packages
+  url: packages/gyft-packages.yml
+- type: DomainSecurity
+  url: security/gyft-domain-security.yml
+- type: LLMsTxt
+  url: llms/gyft-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

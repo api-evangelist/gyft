@@ -1,0 +1,42 @@
+generated: '2026-07-19'
+method: searched
+source: https://business.gyft.com/developers
+notes: >-
+  Gyft (a Fiserv/First Data company) documents a first-party "Gyft API" and
+  "Gyft SDK" for adding digital gift cards to apps, websites, and rewards
+  programs. The first-party SDK is distributed to enrolled partners via the
+  developer portal rather than a public package registry, so no official
+  registry package could be verified. The registry packages below are
+  community-maintained third-party clients (official: false).
+packages:
+  - language: multi
+    registry: docs
+    name: Gyft SDK
+    url: https://business.gyft.com/developers/docs/?sdk=1
+    install: null
+    official: true
+    notes: First-party SDK documented on the Gyft developer portal (partner enrollment required); not published to a public package registry.
+  - language: javascript
+    registry: npm
+    name: gyft
+    url: https://www.npmjs.com/package/gyft
+    install: npm install gyft
+    official: false
+    author: evanlucas
+    notes: Third-party Node.js client for the Gyft API (repo evanlucas/node-gyft).
+  - language: ruby
+    registry: rubygems
+    name: gyft
+    url: https://github.com/cbetta/gyft
+    install: null
+    official: false
+    author: cbetta
+    notes: Third-party Ruby SDK for the Gyft Developer API.
+  - language: java
+    registry: github
+    name: gyftapi
+    url: https://github.com/alakshmigit/gyftapi
+    install: null
+    official: false
+    author: alakshmigit
+    notes: Third-party Java integration for the Gyft API.
