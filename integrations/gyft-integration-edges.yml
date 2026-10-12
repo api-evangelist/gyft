@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/gyft/integrations
+- https://n8n.io/integrations/gyft/
+- https://composio.dev/toolkits/gyft
+- https://monid.ai/tools/gyft
+checked:
+- https://composio.dev/toolkits/gyft
+- https://monid.ai/tools/gyft
+- https://n8n.io/integrations/gyft/
+- https://zapier.com/apps/gyft/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
